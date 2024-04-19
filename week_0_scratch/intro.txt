@@ -39,4 +39,24 @@ Colors of skin - Fitzpatrick scale from lighter to darker (5 tones). can think o
 All of this is just context. Like we use numbers to represent so many different things where even RGB is 0-255, 0-255, 0-255. So 72, 73, 33 would be like a yellow color but in ASCII it means HI!. 
 
 __________________________
-Algorithm -
+Algorithm - step by step instruction for solving a problem.
+
+Code is the implementation in computers of algorithms.
+
+Need to be more efficient in how you solve a problem. Like searching for a name in a phone book where you search in the middle, then if not there you look at first or second half based on alphabet. You then go to half of that and try again...keep going until you get to the page that has the information.
+
+Pseudocode - no formal meaning. Just write out the thoughts tersely but succinctly step by step. 
+
+1 Pick up phone buook
+2 Open to middle of book
+3 look at page
+4 if person is on page  
+5   call person
+6 else if person is earlier in book
+7   open to middle of left half of book
+8   go back to line 3 
+9 else if person later in book
+10  open to middle of right half of book
+11  go back to line 3
+12 else
+13  quit <--- person not in the book so have to account for that
