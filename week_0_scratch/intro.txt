@@ -1,0 +1,18 @@
+1. Problem Solving - input -> ....  ->output
+somewhere in the middle is how to get the output
+
+binary - 0's and 1's
+unary - each finger of your hand is a digit and that's it...you can count up to 31. think of it as being fingers in up or down position. where thumb is one, pointer finger is two, thumb and pointer is three, middle finger is four, middle finger and thumb is five...etc.
+
+base-2 (binary) - need just two digits or two words that can be used to represent something, like 0 an 1. 0 and 1 can be considered off and on. this is binary gits... ie bit. A bit is either a 0 or a 1. 
+
+have to think of binary like base 10 where 123 is one hundred twenty three and this is 10(2) + 10(1) + 10(0) powers. but now we are doing 2(2) + 2(1) + 1(0) so for 123 we would have 100 * 1 + 10 *  2 + 1 * 3 = 123 
+
+So instead of 100 place 10 place and 1 place we now for binary have the 4 place, the 2 place and the 1 place. 
+
+To add in 8 now we need another slot. 2(3) which is 8. 
+
+
+Byte - a byte is a larger unit of information composed of a gorup of 8 bits. 11111111 = 255 can also thing of this as 2 to the 8th power which is 256 but we also represent 0 so you subtract one which brings us to 255.
+
+
