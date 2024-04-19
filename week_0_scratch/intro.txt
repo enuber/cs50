@@ -1,4 +1,4 @@
-1. Problem Solving - input -> ....  ->output
+Problem Solving - input -> ....  ->output
 somewhere in the middle is how to get the output
 
 binary - 0's and 1's
@@ -16,3 +16,27 @@ To add in 8 now we need another slot. 2(3) which is 8.
 Byte - a byte is a larger unit of information composed of a gorup of 8 bits. 11111111 = 255 can also thing of this as 2 to the 8th power which is 256 but we also represent 0 so you subtract one which brings us to 255.
 
 
+Now how do we represent letters.
+
+We can assign letters to numbers as long as everyone agrees that a specific letter is represented by that number
+
+ASCII - American Standard Code for Information Interchange
+This is a standard that maps letters and characters and is standardized.
+
+A - 65 - 010000001 <--- the letter, the base 10 number, the byte that shows this. 
+
+There is some mapping for each letter of the alphabet in upper and lower case, then some symbols as well. This doesn't work for every language though as some languages have more than 256 characters to handle.
+
+Emoji - are characters of the alphabet used to represent a face or symbol. But ultimately they are still characters so can be represented.
+
+Unicode - is a superset of ASCII, using 8 bits to represent the aphabet isn't good so unicode uses sometimes 8, 16, 24, or 32 bits per character. So that's one byte, two byte or 3 bytes or 4 bytes. Can represent around 4 billion characters. 
+
+Unicode's mission is to represent all human languages digitally past present and future. 
+We don't represent unicode with 0's and 1's because it's to much. We use unicode's code point. It uses hexidecimal like U+1F602. The U+ is just a signal that this is a unicode character.
+
+Colors of skin - Fitzpatrick scale from lighter to darker (5 tones). can think of this as modifying something that already exists rather than having to represent one emoji five times. Like U+1F602 U+1F3FD where the second part changes the skin tone. So basically more complex emojis can be created by putting these Unicode code points together to represent something. 
+
+All of this is just context. Like we use numbers to represent so many different things where even RGB is 0-255, 0-255, 0-255. So 72, 73, 33 would be like a yellow color but in ASCII it means HI!. 
+
+__________________________
+Algorithm -
